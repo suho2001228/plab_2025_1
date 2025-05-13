@@ -3,6 +3,11 @@
 ## 값을 받아 mysql에서 temperature_db에 값을 저장하고 
 ## influxdb(http://localhost:8086)를 이용하여 온도값 그래프를 그려서 브라우저에 띄우는 과정
 
+#####MySQL 패키지가 Debian 11에서 기본적으로 지원되지 않음
+-> Debian 11에서는 MySQL 대신 MariaDB를 기본적으로 제공하는데, MariaDB는 MySQL과 완전 호환되며, 많은 환경에서 MySQL 대신 사용됩니다.
+
+
+
 ### influxdb에서 그린 그래프 
 ![Image](https://github.com/user-attachments/assets/8254f804-5f20-4eef-810c-f63720d306f1)
 
@@ -14,3 +19,4 @@
 
 ### rp2040에서 mqtt로 전송된 값
 ![Image](https://github.com/user-attachments/assets/1e7fe664-85a2-459d-9117-183d7080da09)
+
